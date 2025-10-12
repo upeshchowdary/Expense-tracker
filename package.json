@@ -34,5 +34,7 @@
     "tailwindcss": "^4.1.13",
     "vite": "^7.1.2"
   },
-  "homepage": "https://your-username.github.io/Expense-tracker"
+  "homepage": "https://upeshchowdary.github.io/Expense-tracker/",
+  "predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
 }
